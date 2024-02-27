@@ -32,11 +32,12 @@
     object-fit: cover;
 }
 
-img{
+
+.picture-block img{
     /*(-webkit-filter: grayscale(100%); */
     filter: grayscale(100%);
 }
-img:hover{
+.picture-block img:hover{
     filter: grayscale(0);
     box-shadow: 0 0 10px 10px rgba(0, 0, 0 , 0.9),
                 0 0 25px 25px rgba(183, 1, 255, 0.3);
@@ -47,4 +48,32 @@ h1{
 }
 *{
     font-family: "Kode Mono", monospace;
+}
+
+.about-hate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    height: 50%;
+    margin: 0 5%;
+    object-fit: cover;
+}
+
+.about-hate img{
+    width: 300px;
+    height: 300px;    
+    object-fit: cover;
+    box-shadow: 0 0 2px 2px rgba(183, 1, 255, 0.8),
+                0 0 5px 10px rgba(203, 71, 255, 0.3)
+}
+.about-hate-text{
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.img-ab{
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
 }
